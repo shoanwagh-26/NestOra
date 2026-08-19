@@ -1,0 +1,138 @@
+~~~~~~~~~~~~~~~ Title  ~~~~~~~~~~~~~~~
+RealEstate Website || TailwindCSS
+
+~~~~~~~~~~~~~~~ Navbar ~~~~~~~~~~~~~~~
+Home | About | Company | Review | Contact | +88 333 78 901
+
+~~~~~~~~~~~~~~~ Home Section ~~~~~~~~~~~~~~~
+Designing <br>
+& building
+
+Energy-efficient <br>
+modern residences <br>
+from 130 sq. m.
+
+Contact us
+
+<i class="ri-arrow-left-line"></i>
+<i class="ri-arrow-right-line"></i>
+
+<h4>Hewes Ave</h4>
+<h4>290 sq. m.</h4>
+<h4>$ 390 000</h4>
+<h4></h4>
+
+<h4>Barton St</h4>
+<h4>350 sq. m.</h4>
+<h4>$ 420 000</h4>
+<h4></h4>
+
+<h4>Eldon Dr</h4>
+<h4>250 sq. m.</h4>
+<h4>$ 370 000</h4>
+<h4></h4>
+
+<h4>Carlisle Rd</h4>
+<h4>350 sq. m.</h4>
+<h4>$ 480 000</h4>
+<h4></h4>
+
+63+ works
+
+~~~~~~~~~~~~~~~ About ~~~~~~~~~~~~~~~
+Architecture
+High-quality architecture services are our specialty.
+
+Interior design
+We provide distinctive and stylish architectural solutions.
+
+Lighting design
+Trust our team to design one-of-a-kind lighting for your home.
+
+Find out the price <br>
+of your home
+We will contact you within 24 hours
+
+~~~~~~~~~~~~~~~ Process ~~~~~~~~~~~~~~~
+4 steps to a new home
+How we Do <span>It</span>
+
+Acquaintance with the customer
+The first thing we do is meeting with our clients and talk through their goals on a future project. During this meeting, feel free to communicate your ideas and ask lots of questions.
+This stage is highly decisive as you can evaluate the work of your potential architect by browsing their portfolio. As a client, you may also assess whether the architect listens to your needs and confirms that he or she understands them.
+
+Project Concept Development
+In this stage, we develop a project concept based on the client’s preferences and ideas. We present the concept in a visual format to ensure that the client’s vision is accurately represented.
+This phase involves a lot of back-and-forth communication, allowing us to refine the project concept until it meets the client’s expectations.
+
+Working on Interior and Exterior
+Once the concept is approved, we start working on the interior and exterior designs. We make sure that all design elements are in harmony, creating a cohesive and aesthetically pleasing result.
+We present detailed plans and 3D visualizations to help the client understand how the final project will look and feel.
+
+Finishing Touches for your future home
+The final stage involves adding the finishing touches to the project. We ensure that every detail is perfect and meets the client’s standards.
+This is where we add the final flourishes that turn a house into a home, making sure it is ready for the client to move in.
+
+~~~~~~~~~~~~~~~ Company ~~~~~~~~~~~~~~~
+Award-winning <br>
+Architecture company
+We deliver the best solutions
+
+7
+Years
+We have been working in the industry since 2011.
+
+63
+Projects
+To this day, we have designed 54 residential projects.
+
+11
+Awards
+Spectrum has been awarded for creativity many times.
+
+contact us
+
+~~~~~~~~~~~~~~~ Blog ~~~~~~~~~~~~~~~
+Find new ideas and <br>
+inspiration in our blog
+Latest blog posts
+
+May 30, 2024
+New Trends in <br>
+Architecture: overview
+Looking through our recent, impactful projects, we set out to ask the designers about their opinion... 
+
+June 12, 2024
+
+August 25, 2024
+
+
+~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~
+I was looking for top-notch creativity and quality service and I found what I needed in your team. You took all my ideas and demands into consideration and made a great project.
+
+Ashley Rosa
+Entrepreneur
+
+Sam McMillan
+Manager
+
+Carla Houston
+Freelancer
+
+Kaitlyn Kristy
+Freelancer
+
+~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~
+Get in touch with <br>
+our team
+Let’s work together!
+
+~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~
++01 333 78 901
+lightcodecamp@gmail.com
+
+Copyright &copy; 2024 LightCode. All rights reserved.
+
+~~~~~~~~~~~~~~~ image links  ~~~~~~~~~~~~~~~
+https://pngtree.com/
+https://unsplash.com/

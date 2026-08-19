@@ -1,0 +1,743 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assests/images/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./output.css" />
+
+    <link rel="icon" href="assets/images/icon_nestora.png" />
+    <title>RealEstate Website || TailwindCSS</title>
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header id="navbar" class="bg-secondcolor fixed w-full top-0 left-0 z-50 shadow-md ">
+      <nav class=" relative max-w-[1920px] mx-auto md:px-10 px-5 flex items-center h-20">
+        <img src="assets/images/logo_nestOra.png" alt="logo" class="w-28 mr-10 sm:mr-32">    <!-- change required -->
+          <!-- Mobile MENU -->
+        <div id="nav-menu" class="xl:hidden bg-whitecolor absolute top-20 left-[-100%] h-screen w-3/4 duration-300 lg:w-1/2">
+
+          <div class=" flex flex-col gap-1">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#company" class="nav-link">Company</a>
+            <a href="#review" class="nav-link">Review</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="tel :+918767053589" class="phone-number"><i class="ri-phone-line"></i> +91 87670 53589</a>
+          </div>
+        </div>
+
+        <div class="text-whitecolor text-xl sm:text-3xl cursor-pointer z-50">
+          <i class="ri-menu-4-line" id="hamburger"></i>
+        </div>
+
+          <!-- Desktop MENU -->
+       <div id="nav-menu-2" class=" hidden top-[-100%] xl:block bg-whitecolor absolute top-[-100%] left-[30%] h-20 w-max duration-300"> 
+
+          <div class="flex items-center justify-center h-full">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#company" class="nav-link">Company</a>
+            <a href="#review" class="nav-link">Review</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="tel :+918767053589" class="phone-number"><i class="ri-phone-line"></i> +91 87670 53589</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="max-w-[1920px] mx-auto">
+        <!--~~~~~~~~~~~~~~~ HOME ~~~~~~~~~~~~~~~-->
+        <div id="home" class="text-whitecolor pt-20 xl:h-screen">
+          <div class="flex flex-col lg:flex-row xl:h-full">
+
+             <div class="relative flex flex-col justify-between overflow-hidden lg:w-[30%]">
+
+                  <!-- Border-1
+                <div class="w-1/2 h-full border-x absolute top-0 transform
+                     translate-x-1/2 opacity-5 -z-10 " ></div>
+
+                  Border-2
+                <div class="w-full h-full border-1 absolute top-0 transform
+                     translate-x-1/2 opacity-5 -z-10 " ></div> -->
+
+                <div class="h-[calc(100%-100px)] flex flex-col gap-8
+                items-center justify-center py-12 xl:py-28 xl:gap-16
+                xl:max-w-xs xl:mx-auto">
+                <h1>
+                  Designing <br>& building
+                </h1>
+               
+                <h4 class="xl:self-end">
+                  Energy-efficient <br>
+                  modern residences <br>
+                  from 130 sq. m.
+                </h4>
+              <button class="btn btn-outline xl:self-start">Contact Us</button>
+              </div>
+              <!-- desktop-menu -->
+              <div class="flex items-center justify-center gap-3
+                    bg-secondcolor w-full h-[100px]">
+                <div id="prev" class="carousel_button_prev
+                     text-lg h-12 w-12 border-2
+                    border-graycolor rounded-full grid place-items-center
+                    cursor-pointer hover:text-graycolor duration-300">
+                  <i class="ri-arrow-left-line"></i>
+                </div>
+                <div id="next" class="carousel_button_next
+                     text-lg h-12 w-12 border-2
+                    border-graycolor rounded-full grid place-items-center
+                    cursor-pointer hover:text-graycolor duration-300">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+             <!--Carousel image   carousel_fade--> 
+             <div class="w-full lg:w-[70%]">
+              <div class="carousel   carousel_fad w-full h-full">
+                <div class="carousel_inner w-full h-full">
+                  <div class="relative flex h-full">
+                    <!-- item 1 -->
+                     <div class="carousel_item carousel_item_active">  <!--carousel_item_active   h-full-->
+                      <img src="assets/images/slide-1.jpg" alt="carousel_image" class="carousel_img h-[calc(100%-100px)]">
+
+                      <div class="h-[100px] flex flex-col gap-2
+                            items-center justify-center 
+                            px-5 lg:flex-row lg:justify-between">
+                        <div class="hidden lg:block text-graycolor
+                              lg:text-2xl xl:text-5xl font-bold uppercase" > 63+ Works</div>
+                        <div class="flex flex-wrap gap-x-2
+                            lg:gap-x-5 justify-center items-center">
+                          <h4 class="text-whitecolor">Hewes Ave</h4>
+                          <h4>290 sq. m.</h4>
+                          <h4>$ 390 000</h4>
+                          <h4 class="hidden xl:block border-b
+                              w-32 border-graycolor"></h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="carousel_item carousel_item_pos_next h-full ">  <!-- carousel_item_pos_next carousel_item_next h-full" -->
+                      <img src="assets/images/slide-2.jpg" alt="carousel_image" class="carousel_img h-[calc(100%-100px)]">
+                      <div class="h-[100px] flex flex-col gap-2
+                            items-center justify-center 
+                            px-5 lg:flex-row lg:justify-between">
+                        <div class="hidden lg:block text-graycolor
+                              lg:text-2xl xl:text-5xl font-bold uppercase" > 63+ Works</div>
+
+                        <div class="flex flex-wrap gap-x-2
+                            lg:gap-x-5 justify-center items-center">
+                          <h4 class="text-whitecolor">Barton St</h4>
+                          <h4>350 sq. m.</h4>
+                          <h4>$ 420 000</h4>
+                          <h4 class="hidden xl:block border-b
+                              w-32 border-graycolor"></h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 3 -->
+                   <div class="carousel_item  carousel_item_pos_next h-full">   <!-- carousel_item_pos_next  carousel_item_next-->
+                      <img src="assets/images/slide-3.jpg" alt="carousel_image" class="carousel_img h-[calc(100%-100px)]">
+                      <div class="h-[100px] flex flex-col gap-2
+                            items-center justify-center 
+                            px-5 lg:flex-row lg:justify-between">
+                        <div class="hidden lg:block text-graycolor
+                              lg:text-2xl xl:text-5xl font-bold uppercase" > 63+ Works</div>
+
+                        <div class="flex flex-wrap overflow-hidden gap-x-2
+                            lg:gap-x-5 justify-center items-center">
+                          <h4 class="text-whitecolor">Eldon Dr</h4>
+                          <h4>350 sq. m.</h4>
+                          <h4>$ 370 000</h4>
+                          <h4 class="hidden xl:block border-b
+                              w-32 border-graycolor"></h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="carousel_item carousel_item_pos_next h-full">
+                      <img src="assets/images/slide-4.jpg" alt="carousel_image" class="carousel_img h-[calc(100%-100px)]">
+
+                      <div class="h-[100px] flex flex-col gap-2
+                            items-center justify-center 
+                            px-5 lg:flex-row lg:justify-between">
+                        <div class="hidden lg:block text-graycolor
+                              lg:text-2xl xl:text-5xl font-bold uppercase" > 63+ Works</div>
+
+                        <div class="flex flex-wrap gap-x-2
+                            lg:gap-x-5 justify-center items-center">
+                          <h4 class="text-whitecolor">Carlisle Rd</h4>
+                          <h4>350 sq. m.</h4>
+                          <h4>$ 480 000</h4>
+                          <h4 class="hidden xl:block border-b
+                              w-32 border-graycolor"></h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+             </div>
+          </div>
+        </div>
+
+        <!--~~~~~~~~~~~~~~~ ABOUT US ~~~~~~~~~~~~~~~-->
+        <section id="about" class="relative bg-whitecolor overflow-hidden">
+
+          <!-- Bg-image -->
+          <div class="hidden xl:block absolute bottom-0 left-1/2 transform
+            -translate-x-1/2 opacity-20">
+            <img src="assets/images/index-7.jpg" alt="bg_image" 
+            class="max-w-3xl background-image-about">
+          </div>
+       
+          <div class="container flex flex-col items-center gap-14 
+                xl:flex-row xl:justify-between">
+                <!-- Icon Box -->
+                 <div class="flex flex-col items-center gap-10
+                      lg:flex-row xl:flex-col xl:items-start xl:max-w-56 z-10">
+                     <!-- Item 1 -->
+                      <div class="space-y-2 text-center xl:text-start">
+                        <div class=" flex flex-col items-center gap-3 xl:flex-row">
+                          <div class="inline-block relative">
+                            <div class="h-6 w-6 bg-firstcolor rounded-full 
+                            opacity-50 absolute -right-1 top-3"></div>
+
+                            <i class="ri-hotel-line text-5xl"></i>
+                          </div>
+
+                          <h4 class="text-blackcolor hover:-translate-y-1
+                              duration-300 cursor-pointer">Architecture</h4>
+                        </div>
+                        <p>High quality architecture services are our specialty.</p>
+                      </div>
+
+                      <!-- Item 2 -->
+                      <div class="space-y-2 text-center xl:text-start">
+                        <div class=" flex flex-col items-center gap-3 xl:flex-row">
+                          <div class="inline-block relative">
+                            <div class="h-6 w-6 bg-firstcolor rounded-full 
+                            opacity-50 absolute -right-1 top-3"></div>
+
+                            <i class="ri-pen-nib-line text-5xl"></i>
+                          </div>
+                          
+                          <h4 class="text-blackcolor hover:-translate-y-1
+                              duration-300 cursor-pointer">Interior Design </h4>
+                        </div>
+                        <p>We provide distinctive and stylish architectural solutions.</p>
+                      </div>
+
+                      <!-- Item 3 -->
+                      <div class="space-y-2 text-center xl:text-start">
+                        <div class=" flex flex-col items-center gap-3 xl:flex-row">
+                          <div class="inline-block relative">
+                            <div class="h-6 w-6 bg-firstcolor rounded-full 
+                            opacity-50 absolute -right-1 top-3"></div>
+
+                            <i class="ri-lightbulb-line text-5xl"></i>
+                          </div>
+                          
+                          <h4 class="text-blackcolor hover:-translate-y-1
+                              duration-300 cursor-pointer"> Lighting Design </h4>
+                        </div>
+                        <p>Trust our team to design one-of-a-kind lighting for your home.</p>
+                      </div>
+                 </div>
+
+                  <!-- FORM -->
+                  <div class="flex flex-col items-center text-center gap-3
+                       xl:text-start xl:items-center xl:max-w-lg z-10 xl:gap-5">
+                    <h2>Find out the price <br>
+                        of your home.
+                    </h2>
+
+                    <h4>We will contact you within 24 hours.</h4>
+
+                    <form class="bg-secondcolor p-5 mt-5 text-whitecolor
+                          space-y-5 rounded-md shadow-2xl text-start lg:p-10">
+                      <input type="text" placeholder="Name" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <input type="email" placeholder="Email" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <input type="tel" placeholder="Phone" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <button class="btn">Submit</button>
+                    </form>
+                  </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ PROCESS ~~~~~~~~~~~~~~~-->
+        <section id="process" class="container">
+          <div class="flex flex-col gap-10 xl:flex-row xl:justify-between">
+            <!-- Top -->
+             <div class="space-y-3 xl:w-1/2 xl:space-y-5">
+              <h4>4 steps to a new home!</h4>
+              <h1 class="xl:max-w-64">
+                How we Do <span class="font-normal">It</span>
+              </h1>
+
+              <!-- Tab Content -->
+              <div id="tab-content" class="space-y-3 pt-3 xl:pt-8 xl:space-y-6" >
+                <h2 class="text-firstcolor">Acquaintance with the customer</h2>
+
+                <p class="text-graycolor">The first thing we do is meeting with our clients and talk through their goals on a future project. 
+                  During this meeting, feel free to communicate your ideas and ask lots of questions.
+                </p>
+
+                <p class="text-graycolor">This stage is highly decisive as you can evaluate the work of your potential architect by browsing their portfolio. 
+                  As a client, you may also assess whether the architect listens to your needs and confirms that he or she understands them.
+                </p>
+              </div>
+             </div>
+
+             <!-- Bottom -->
+              <div class="space-y-10 xl:w-1/2 ">
+                <ul id="tab-list" class="text-graycolor text-xs font-bold grid grid-cols-1-gap-3
+                    lg:grid-cols-2 xl:text-base xl:gap-y-7">
+                  <li class="process_tab process_tab-active uppercase cursor-pointer flex gap-2" data-tab="1">
+                    <span>01</span>
+                    <p>Acquaintance with the customer</p>
+                  </li>
+
+                    <li class="process_tab  uppercase cursor-pointer flex gap-2" data-tab="2">
+                    <span>02</span>
+                    <p>Project Concept Development</p>
+                  </li>
+
+                    <li class="process_tab uppercase cursor-pointer flex gap-2" data-tab="3">
+                    <span>03</span>
+                    <p>Working on Interior and Exterior</p>
+                  </li>
+
+                    <li class="process_tab uppercase cursor-pointer flex gap-2" data-tab="4">
+                    <span>04</span>
+                    <p>Finishing Touches for your future home</p>
+                  </li>
+                </ul>
+
+                <div>
+                  <img id="tab-image" src="assets/images/process-1.jpg" 
+                  alt="process_image" class="w-full">
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ COMPANY ~~~~~~~~~~~~~~~-->
+        <section id="company" class="relative bg-whitecolor overflow-hidden">
+
+            <!-- bg image -->
+          <div class="hidden xl:block absolute bottom-0 left-1/2 transform
+            -translate-x-1/2 opacity-20">
+            <img src="assets/images/index-8.jpg" alt="bg_image" 
+            class="max-w-5xl background-image-company">
+          </div>
+
+          <div class="container flex flex-col items-center
+                gap-14 xl:flex-row xl:items-start xl:justify-between">
+            <!-- Top -->
+             <div class="flex flex-col items-center text-center gap-3
+                  xl:text-start xl:items-start xl:max-w-xl z-10 xl:gap-5">
+              <h2>
+                  Award-winning <br>
+                  Architecture Company
+              </h2>
+
+              <h4>We deliver the best solutions.</h4>
+
+              <div class="mt-5">
+                <img src="assets/images/company.jpg" alt="company_image"
+                      class="rounded-md shadow-2xl" >
+              </div>
+             </div>
+             <!-- Bottom -->
+              <div class="flex flex-col items-center justify-center gap-10 
+                  lg:flex-row lg:flex-wrap xl:flex-col xl:items-start xl:max-w-56 z-10">
+                <!-- Item 1 -->
+                 <div class="space-y-2 text-center lg:w-[40%] xl:w-full
+                    xl:text-start">
+                  <div class="flex flex-col items-center gap-3 xl:flex-row
+                    mb-5">
+                    <h1 class="text-blackcolor xl:text-6xl">7</h1>
+                    <h4 class="text-blackcolor relative before:content-['']
+                        before:absolute before:-bottom-2 before:left-[35%] 
+                        pb-1 xl:pb-2 xl:before:h-2 xl:before:left-0">Years</h4>
+                  </div>
+
+                  <p>We have been working in the industry since 2011.</p>
+                 </div>
+
+                 <!-- Item 2 -->
+                 <div class="space-y-2 text-center lg:w-[40%] xl:w-full
+                    xl:text-start">
+                  <div class="flex flex-col items-center gap-3 xl:flex-row
+                    mb-5">
+                    <h1 class="text-blackcolor xl:text-6xl">63</h1>
+                    <h4 class="text-blackcolor relative before:content-['']
+                        before:absolute before:-bottom-2 before:left-[35%] 
+                        pb-1 xl:pb-2 xl:before:h-2 xl:before:left-0">Projects</h4>
+                  </div>
+
+                  <p>To this day, we have designed 54 residential projects..</p>
+                 </div>
+
+                 <!-- Item 3 -->
+                 <div class="space-y-2 text-center lg:w-full xl:w-full
+                    xl:text-start">
+                  <div class="flex flex-col items-center gap-3 xl:flex-row
+                    mb-5">
+                    <h1 class="text-blackcolor xl:text-6xl">11</h1>
+                    <h4 class="text-blackcolor relative before:content-['']
+                        before:absolute before:-bottom-2 before:left-[35%] 
+                        pb-1 xl:pb-2 xl:before:h-2 xl:before:left-0">Awards</h4>
+                  </div>
+
+                  <p class="lg:w-[40%] mx-auto xl:w-full">Spectrum has been awarded for creativity many times.</p>
+                 </div>
+
+                 <button class="btn mt-5">Contact Us</button>
+              </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ BLOG ~~~~~~~~~~~~~~~-->
+        <section id="blog" class="bg-[#f5f5f5] relative overflow-hidden">
+           <!-- border-1 -->
+          <div class="w-4/5 h-full border-x border-firstcolor absolute top-0
+                left-1/2 transform -translate-x-1/2 opacity-20 lg:w-2/5 xl:w-1/3
+                pointer-events-none">
+          </div>
+
+            <!-- border-2 -->
+          <div class="w-full h-full border-1 border-firstcolor absolute top-0
+               transform translate-x-1/2 opacity-20 pointer-events-none">
+          </div>
+
+          <div class="container">
+            <div class="flex flex-col items-center justify-center text-center
+                 gap-3 xl:gap-5">
+              <h2>
+                Find new ideas and <br>
+                inspiration in our blog
+              </h2>
+
+              <h4>Latest blog posts</h4>
+            </div>
+
+            <div class="grid grid-cols-1 gap-x-20 gap-y-10 mt-10
+                 lg:grid-cols-2 lg:mt-20 xl:grid-cols-3 xl:gap-32">
+              <!-- blog item 1 -->
+               <div class="text-center space-y-5 xl:text-start z-20">
+                <h2 class="text-firstcolor font-bold opacity-50">May 30, 2026</h2>
+
+                <img src="assets/images/blog-1.jpg" alt="blog_image"
+                    class="w-full h-48">
+
+                <h4 class="text-blackcolor hover:text-firstcolor
+                    duration-300 cursor-pointer">
+                  New Trends in <br>
+                  Architecture: overview
+                </h4>
+
+                <p>
+                  Looking through our recent, imapctful projects, we set out to ask the designers
+                  about their opinion...
+                </p>
+               </div>
+
+                <!-- blog item 2 -->
+               <div class="text-center space-y-5 xl:text-start z-20">
+                <h2 class="text-firstcolor font-bold opacity-50">June 13, 2026</h2>
+
+                <img src="assets/images/blog-2.jpg" alt="blog_image"
+                    class="w-full h-48">
+
+                <h4 class="text-blackcolor hover:text-firstcolor
+                    duration-300 cursor-pointer">
+                  New Trends in <br>
+                  Architecture: overview
+                </h4>
+
+                <p>
+                  Looking through our recent, imapctful projects, we set out to ask the designers
+                  about their opinion...
+                </p>
+               </div>
+
+                <!-- blog item 3 -->
+               <div class="text-center space-y-5 lg:col-span-2 lg:w-[45%] 
+                    lg:mx-auto xl:text-start xl:col-span-1 xl:w-full z-20">
+                <h2 class="text-firstcolor font-bold opacity-50">June 27, 2026</h2>
+
+                <img src="assets/images/blog-3.jpg" alt="blog_image"
+                    class="w-full h-48">
+
+                <h4 class="text-blackcolor hover:text-firstcolor
+                    duration-300 cursor-pointer">
+                  New Trends in <br>
+                  Architecture: overview
+                </h4>
+
+                <p>
+                  Looking through our recent, imapctful projects, we set out to ask the designers
+                  about their opinion...
+                </p>
+               </div>
+            </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ REVIEW ~~~~~~~~~~~~~~~-->
+        <section id="review" class="relative">
+
+          <!-- bg-image -->
+          <div>
+            <img src="assets/images/bg-image-review.png" alt="bg_image"
+                 class="absolute inset-0 h-full w-full opacity-10 -z-20">
+          </div>
+
+          <div class="container">
+            <div class="review_swiper">
+              <div class="swiper min-h-96 lg:h-[500px]">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <div class="flex flex-col justify-center
+                          items-center gap-5 text-center lg:text-start
+                          lg:items-start">
+                      <i class="ri-chat-quote-full text-firstcolor text-6xl"></i>
+
+                      <p class="lg:text-2xl xl:text-3xl text-whitecolor lg:pl-32">
+                        I was looking for top-notch creativity and quality service and I found what 
+                        I needed in your team. You took all my ideas and demands into consideration 
+                        and made a great project.
+                      </p>
+
+                      <div class="flex items-center gap-5 lg:pl-32
+                          lg:pt-10">
+                        <img src="assets/images/review-1.jpg" alt="review_image"
+                        class="w-16 h-16">
+
+                        <div class="text-start font-bold">
+                          <p class="text-whitecolor">Ashley Rosa</p>
+                          <p class="text-firstcolor">Entrepreneur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                   <li class="swiper-slide">
+                    <div class="flex flex-col justify-center
+                          items-center gap-5 text-center lg:text-start
+                          lg:items-start">
+                      <i class="ri-chat-quote-full text-firstcolor text-6xl"></i>
+
+                      <p class="lg:text-2xl xl:text-3xl text-whitecolor lg:pl-32">
+                        I was looking for top-notch creativity and quality service and I found what 
+                        I needed in your team. You took all my ideas and demands into consideration 
+                        and made a great project.
+                      </p>
+
+                      <div class="flex items-center gap-5 lg:pl-32
+                          lg:pt-10">
+                        <img src="assets/images/review-2.jpg" alt="review_image"
+                        class="w-16 h-16">
+
+                        <div class="text-start font-bold">
+                          <p class="text-whitecolor">Sam McMillan</p>
+                          <p class="text-firstcolor">Manger</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                   <li class="swiper-slide">
+                    <div class="flex flex-col justify-center
+                          items-center gap-5 text-center lg:text-start
+                          lg:items-start">
+                      <i class="ri-chat-quote-full text-firstcolor text-6xl"></i>
+
+                      <p class="lg:text-2xl xl:text-3xl text-whitecolor lg:pl-32">
+                        I was looking for top-notch creativity and quality service and I found what 
+                        I needed in your team. You took all my ideas and demands into consideration 
+                        and made a great project.
+                      </p>
+
+                      <div class="flex items-center gap-5 lg:pl-32
+                          lg:pt-10">
+                        <img src="assets/images/review-3.jpg" alt="review_image"
+                        class="w-16 h-16">
+
+                        <div class="text-start font-bold">
+                          <p class="text-whitecolor">Carla Houston</p>
+                          <p class="text-firstcolor">Freelancer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                   <li class="swiper-slide">
+                    <div class="flex flex-col justify-center
+                          items-center gap-5 text-center lg:text-start
+                          lg:items-start">
+                      <i class="ri-chat-quote-full text-firstcolor text-6xl"></i>
+
+                      <p class="lg:text-2xl xl:text-3xl text-whitecolor lg:pl-32">
+                        I was looking for top-notch creativity and quality service and I found what 
+                        I needed in your team. You took all my ideas and demands into consideration 
+                        and made a great project.
+                      </p>
+
+                      <div class="flex items-center gap-5 lg:pl-32
+                          lg:pt-10">
+                        <img src="assets/images/review-4.jpg" alt="review_image"
+                        class="w-16 h-16">
+
+                        <div class="text-start font-bold">
+                          <p class="text-whitecolor">Kaitlyn Kristy</p>
+                          <p class="text-firstcolor">Freelancer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                  <div class="swiper-pagination mb-10"></div>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center  pt-20 lg:items-start
+                  lg:pl-32">
+              <h4>Trusted By</h4>
+
+              <div class="flex items-center justify-center flex-wrap gap-10
+                   lg:justify-start xl:gap-20">
+                <img src="assets/images/client-1.png" alt="review_image"
+                     class="w-28 opacity-50 cursor-pointer hover:opacity-100
+                     duration-300">
+
+                <img src="assets/images/client-2.png" alt="review_image"
+                     class="w-28 opacity-50 cursor-pointer hover:opacity-100
+                     duration-300">
+
+                <img src="assets/images/client-3.png" alt="review_image"
+                     class="w-28 opacity-50 cursor-pointer hover:opacity-100
+                     duration-300">
+
+                <img src="assets/images/client-4.png" alt="review_image"
+                     class="w-28 opacity-50 cursor-pointer hover:opacity-100
+                     duration-300">
+
+                <img src="assets/images/client-5.png" alt="review_image"
+                     class="w-40 opacity-50 cursor-pointer hover:opacity-100
+                     duration-300">
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ CONTACT ~~~~~~~~~~~~~~~-->
+        <section id="contact" class="relative bg-whitecolor overflow-hidden">
+
+          <!-- bg-image -->
+            <div class="hidden xl:block absolute bottom-20 left-1/2 transform
+            -translate-x-1/2 opacity-20">
+            <img src="assets/images/index-7.jpg" alt="bg_image" 
+            class="max-w-4xl background-image-contact">
+          </div>
+
+          <div class="container flex flex-col items-center gap-14 
+              xl:flex-row xl:justify-between z-10">
+            <!-- image -->
+             <div class="hidden xl:block z-20">
+              <img src="assets/images/contact-1.png" alt="contact_image"
+                  class="max-w-lg">
+             </div>
+
+             <!-- form -->
+              <div class="flex flex-col items-center text-center gap-3
+                   xl:text-start xl:items-start xl:max-w-lg z-10 xl:gap-5">
+                <h2>
+                  Get in touch with <br>
+                  our team
+                </h2>
+
+                <h4>Let's work together!</h4>
+
+                <form class="bg-secondcolor p-5 mt-5 text-whitecolor
+                          space-y-5 rounded-md shadow-2xl text-start lg:p-10">
+                      <input type="text" placeholder="Name" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <input type="email" placeholder="Email" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <input type="tel" placeholder="Phone" class="w-full
+                            bg-transparent border-b border-graycolor py-2 outline-none">
+                      <button class="btn">Submit</button>
+                </form>
+              </div>
+          </div>
+        </section>
+    </main>
+
+    <!--~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~-->
+    <footer class="py-20 md:py-28">
+      <div class="text-whitecolor flex flex-col items-center justify-center gap-8 
+      text-xl lg:text-2xl">
+        <img src="assets/images/logo_nestOra.png" alt="logo"
+        class="w-30 h-20">
+
+        <div class="text-center">
+          <a href="tel:+918767053589">+91 87670 53589</a>
+          <br>
+          <a href="mailto:nestora@gmail.com">   Nestora@gmail.com </a>
+        
+        <span class="border-b width-40 opacity-50"></span>
+
+        <div class="space-x-5">
+            <i class="ri-facebook-fill cursor-pointer hover:text-firstcolor duration-300"></i>
+            <i class="ri-twitter-fill cursor-pointer hover:text-firstcolor duration-300"></i>
+            <i class="ri-youtube-fill cursor-pointer hover:text-firstcolor duration-300"></i>
+        </div>
+     </div>
+      </div>
+
+      <div>
+        <p class="text-whitecolor text-xs text-center 
+        mt-10 opacity-50">Copyright &copy; 2026 NestOra. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+    <!--~~~~~~~~~~~~~~~ SCROLL UP ~~~~~~~~~~~~~~~-->
+    <a href="#" class="text-whitecolor bg-firstcolor px-3 py-1 md:px-4 md:py-2
+      fixed right-4 -bottom-1/2 shadow-sm inline-block rounded-md text-2xl z-50
+      hover:-translate-y-1 duration-300" id="scroll-up">
+      <i class="ri-arrow-drop-up-line"></i>
+    </a>
+    <!--~~~~~~~~~~~~~~~ SWIPER JS ~~~~~~~~~~~~~~~-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ MAINJS ~~~~~~~~~~-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
