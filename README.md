@@ -6,6 +6,10 @@ NestOra is a real-estate web experience built from scratch with the goal of maki
 
 Rather than treating the project as a static landing page, the interface is designed around how a user actually explores properties — scanning listings, comparing information, navigating sections, and interacting with the interface across different screen sizes.
 
+# NestOra
+
+[🌐 Live Demo](https://nestora-k2yt.onrender.com)
+
 ##  What I Built
 
 - **Property Discovery Interface** — Property information is organized into visually distinct cards and sections so users can quickly understand location, pricing, area, and other key details.
